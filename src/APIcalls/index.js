@@ -31,8 +31,7 @@ export const forFeed = async (data) =>{
     url:"http://localhost:4000/api/v1/products/loadProducts",
     body:"",
     headers :
-      {"X-Authorization" : `${token}`,
-
+      {"X-Authorization" : `${token}`
   },
     params:{
       per_page: 25,
