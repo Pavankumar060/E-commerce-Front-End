@@ -73,7 +73,6 @@ const Login = () => {
             />
           </div>
         </div>
-        {/* {errors.exampleRequired && <span>This field is required</span>} */}
 
         <button style={{ borderRadius: 15 }}>Login</button>
         <h6>
